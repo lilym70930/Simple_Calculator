@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(to right, orange, gray);
+    height: 100%;
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+#resultScreen{
+    width: 300px;
+    height: 80px;
+    border: 1px black solid;
+    margin-top: 20px;
+    font-size: 65px;
+    color: white;
+}
+.calcWrap{
+    width: 300px;
+    height: 500px;
+    border: 1px black solid;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(5, 5, 5);   
+}
+table{
+    width: 300px;
+    height: 400px;
+}
+#ACbutton button{
+    border: 1px black solid;
+    width: 100%;
+}
+#devbutton{
+    border: 1px black solid;
+}
+#button0 button{
+    border: 1px black solid;
+    width: 100%;
+}
+tr{
+    border: 1px black solid;
+}
+button{
+   padding: 0;
+   margin: 0;
+   font-size: 30px; 
+   width: 60px;
+   height: 60px;
+   border: none;
+}
+.leftOperators button{
+    background-color: orange;
+    color: white;
+    font-size: 36px;
+}
+h1{
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 10%;
+    left: 50%;  
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
